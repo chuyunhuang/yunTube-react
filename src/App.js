@@ -1,8 +1,11 @@
 import React from 'react';
 
+//Components
+import HeaderNav from './Containers/HeaderNav/HeaderNav';
+
 function App() {
   return (
-    <div>Hello </div>
+    <HeaderNav />
   );
 }
 
