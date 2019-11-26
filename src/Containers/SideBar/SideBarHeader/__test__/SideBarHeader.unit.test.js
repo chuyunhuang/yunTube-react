@@ -9,18 +9,18 @@ describe('SideBarHeader', () => {
     );
     expect(wrapper).toMatchSnapshot();
   })
+
+  test('renders SidBarHeader with props.title=\'\'', () => {
+    const wrapper = shallow(
+      <SideBarHeader title=" " />
+    )
+    expect(wrapper).toMatchSnapshot();
+  })
+
+  test('renders SideBarHeader with sample title', () => {
+    const wrapper = shallow(
+      <SideBarHeader title="Sample Title" />
+    )
+    expect(wrapper).toMatchSnapshot();
+  })
 });
-
-test('renders SidBarHeader with props.title=\'\'', () => {
-  const wrapper = shallow(
-    <SideBarHeader title=" " />
-  )
-  expect(wrapper).toMatchSnapshot();
-})
-
-test('renders SideBarHeader with sample title', () => {
-  const wrapper = shallow(
-    <SideBarHeader title="Sample Title" />
-  )
-  expect(wrapper).toMatchSnapshot();
-})

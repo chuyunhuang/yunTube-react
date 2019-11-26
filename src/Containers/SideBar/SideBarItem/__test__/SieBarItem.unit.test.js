@@ -9,27 +9,27 @@ describe('SideBarItem', () => {
     );
     expect(wrapper).toMatchSnapshot();
   });
+
+  test('renders highlighted SideBarItem that navigates to /feed/trending', () => {
+    const wrapper = shallow(
+      <SideBarItem highlight icon="fire" label="Trending" />
+    );
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('renders non-highlighted SideBarItem that navigates to /feed/trending', () => {
+    const wrapper = shallow(
+      <SideBarItem icon="fire" label="Trending" />
+    );
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  test('renders highlighted SideBarItem with no navigation', () => {
+    const wrapper = shallow(
+      <SideBarItem highlight icon="fire" label="Trending" />
+    )
+    expect(wrapper).toMatchSnapshot();
+  })
+
 });
-
-test('renders highlighted SideBarItem that navigates to /feed/trending', () => {
-  const wrapper = shallow(
-    <SideBarItem highlight icon="fire" label="Trending" />
-  );
-  expect(wrapper).toMatchSnapshot();
-});
-
-test('renders non-highlighted SideBarItem that navigates to /feed/trending', () => {
-  const wrapper = shallow(
-    <SideBarItem icon="fire" label="Trending" />
-  );
-  expect(wrapper).toMatchSnapshot();
-});
-
-test('renders highlighted SideBarItem with no navigation', () => {
-  const wrapper = shallow(
-    <SideBarItem highlight icon="fire" label="Trending" />
-  )
-  expect(wrapper).toMatchSnapshot();
-})
-
 

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubsciptionGroup render broadcasting Subscription 1`] = `
+<Fragment>
+  <SideBarHeader
+    title="Subscriptions"
+  />
+  <Subscription
+    broadcasting={true}
+    label="Music Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Travel Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Ted x Talks"
+  />
+  <Divider />
+</Fragment>
+`;
+
+exports[`SubsciptionGroup renders an empty SubscriptionGroup 1`] = `
+<Fragment>
+  <SideBarHeader
+    title="Subscriptions"
+  />
+  <Subscription
+    broadcasting={true}
+    label="Music Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Travel Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Ted x Talks"
+  />
+  <Divider />
+</Fragment>
+`;
+
+exports[`SubsciptionGroup renders non-broadcasting Subscription with new videos 1`] = `
+<Fragment>
+  <SideBarHeader
+    title="Subscriptions"
+  />
+  <Subscription
+    broadcasting={true}
+    label="Music Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Travel Channel"
+  />
+  <Subscription
+    amountNewVideos={10}
+    label="Ted x Talks"
+  />
+  <Divider />
+</Fragment>
+`;
+
+exports[`Subscribtion renders 1`] = `
+<MenuItem>
+  <div
+    className="subscription"
+  >
+    <div>
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span />
+    </div>
+  </div>
+</MenuItem>
+`;
