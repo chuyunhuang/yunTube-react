@@ -17,7 +17,7 @@ export class VideoPreview extends React.Component {
           <div className="semi-bold show-max-two-lines">Video Title</div>
           <div className="video-preview-metadata-container">
             <div className="channel-title">
-              Channel Title
+              Channel Title really really reallllllllllllllllllllyyyyyy long
             </div>
           </div>
           <div><span>6.25 million views | 2 days ago</span></div>

@@ -1,8 +1,9 @@
 @import '../../styles/shared.scss';
 
-.videp-display{
+.videp-preview{
   display: grid;
-  grid: 118px auto/ 210px;
+  grid: 118px auto /210px;
+  // grid-template-columns:  210px auto;
 }
 
 .image-container{
@@ -25,3 +26,30 @@
 
   }
 }
+
+.video-info{
+  color: $text-color-dark;
+
+  .video-preview-metadata-container{
+    padding-top:5px;
+    font-size: 13px;
+    color: #e6e6e6;
+
+    .channel-title{
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .show-max-two-lines{
+    overflow: hidden;
+    line-height: 1.4rem;
+    max-height: 2.8rem;
+  }
+    .semi-bold{
+      font-weight: 600;
+    }
+  
+}
+
