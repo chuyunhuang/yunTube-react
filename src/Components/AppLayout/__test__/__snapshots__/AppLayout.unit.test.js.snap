@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLayout renders <AppLayout />  1`] = `
+<div
+  className="app-layout"
+>
+  <HeaderNav />
+</div>
+`;
+
+exports[`AppLayout renders <AppLayout /> with more than one children 1`] = `
+<div
+  className="app-layout"
+>
+  <HeaderNav />
+  <div>
+    Child 1
+  </div>
+  <div>
+    <span>
+      Child 2
+    </span>
+    <div>
+      Child 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AppLayout renders <AppLayout /> with one child 1`] = `
+<div
+  className="app-layout"
+>
+  <HeaderNav />
+  <div>
+    Child 1
+  </div>
+</div>
+`;
