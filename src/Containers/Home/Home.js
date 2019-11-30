@@ -14,7 +14,6 @@ export class Home extends React.Component {
             <VideoGrid title="International" hideDivider={true} />
           </div>
         </div>
-
       </React.Fragment>
     )
   }

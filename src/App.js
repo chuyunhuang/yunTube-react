@@ -1,20 +1,14 @@
-import React, { Component } from 'react';
-
-//Containers
-import HeaderNav from './Containers/HeaderNav/HeaderNav';
-// import SideBar from './Containers/SideBar/SideBar';
+import React from 'react';
 
 //Components
 import { Home } from './Containers/Home/Home';
+import { AppLayout } from './Components/AppLayout/AppLayout';
 
 function App() {
   return (
-    <React.Fragment>
-      <HeaderNav />
-      {/* <SideBar /> */}
+    <AppLayout >
       <Home />
-    </React.Fragment>
-
+    </AppLayout>
   );
 }
 
