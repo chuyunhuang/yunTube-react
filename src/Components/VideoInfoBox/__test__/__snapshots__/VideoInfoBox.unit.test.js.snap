@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoInfoBox render VideoInfoBox 1`] = `
+<div
+  className="video-info-box"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channel-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="video-info"
+  >
+    <div
+      className="channel-name"
+    >
+      Yun is amazing
+    </div>
+    <div
+      className="video-publish-date"
+    >
+      Wed, Dec 4th
+    </div>
+  </div>
+  <Button
+    as="button"
+    className="subscribe"
+    color="youtube"
+  >
+    1 Subscribe
+  </Button>
+  <div
+    className="video-description"
+  >
+    <div
+      className="collapsed"
+    >
+      <p>
+        1
+      </p>
+      <p>
+        2
+      </p>
+      <p>
+        3
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+    >
+      Show More
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`VideoInfoBox render VideoInfoBox in default mode, text collapsed 1`] = `
+<div
+  className="video-info-box"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channel-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="video-info"
+  >
+    <div
+      className="channel-name"
+    >
+      Yun is amazing
+    </div>
+    <div
+      className="video-publish-date"
+    >
+      Wed, Dec 4th
+    </div>
+  </div>
+  <Button
+    as="button"
+    className="subscribe"
+    color="youtube"
+  >
+    1 Subscribe
+  </Button>
+  <div
+    className="video-description"
+  >
+    <div
+      className="collapsed"
+    >
+      <p>
+        1
+      </p>
+      <p>
+        2
+      </p>
+      <p>
+        3
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+    >
+      Show More
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`VideoInfoBox render VideoInfoBox, text expand 1`] = `
+<div
+  className="video-info-box"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channel-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="video-info"
+  >
+    <div
+      className="channel-name"
+    >
+      Yun is amazing
+    </div>
+    <div
+      className="video-publish-date"
+    >
+      Wed, Dec 4th
+    </div>
+  </div>
+  <Button
+    as="button"
+    className="subscribe"
+    color="youtube"
+  >
+    1 Subscribe
+  </Button>
+  <div
+    className="video-description"
+  >
+    <div
+      className="expand"
+    >
+      <p>
+        1
+      </p>
+      <p>
+        2
+      </p>
+      <p>
+        3
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+    >
+      Show Less
+    </Button>
+  </div>
+</div>
+`;
