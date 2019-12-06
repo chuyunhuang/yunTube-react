@@ -1,5 +1,6 @@
 import React from 'react';
 import { CommentHeader } from './CommentHeader/CommentHeader';
+import { SingleComment } from './SingleComment/SingleComment';
 import './Comments.scss';
 
 export class Comments extends React.Component {
@@ -7,6 +8,10 @@ export class Comments extends React.Component {
     return (
       <div>
         <CommentHeader />
+        <SingleComment />
+        <SingleComment />
+        <SingleComment />
+
       </div>
     )
   }
